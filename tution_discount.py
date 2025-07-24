@@ -1,3 +1,4 @@
+# Variables
 student_name=input("Enter Your Name: ")
 student_grade=int(input("Enter Your Garde(1-12): "))
 base_tution_fee=float(input("Enter Your Tution fee: "))
