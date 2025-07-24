@@ -4,7 +4,7 @@ student_grade=int(input("Enter Your Garde(1-12): "))
 base_tution_fee=float(input("Enter Your Tution fee: "))
 academic_topper_states=input("Are You Topper (Yes/No)")
 discount=0
-# input validation
+# input validations
 if student_grade<1 or student_grade>12:
     print("Invalid plese enter valid grade (1-12)")
     exit()
