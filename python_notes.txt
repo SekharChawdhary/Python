@@ -1,0 +1,18 @@
+Variables:-
+----------
+> In python variables are containers for storing data(A variable like a container that stores in memory).
+> variable are case sensitive like (A and a) has different meaning
+> Python is dynamically typed, we don't need declare type
+> We can reassign with a  new value with different type
+
+Ex:-
+----
+ a = 10
+ |    |
+ |    |
+name value
+
+
+Data types:-
+-----------
+
