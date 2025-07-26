@@ -1,3 +1,4 @@
+#Emi calculater
 car_price=1753560
 down_payment=int(input("Enter down Payment Amount"))
 bank_intrest=9.0
