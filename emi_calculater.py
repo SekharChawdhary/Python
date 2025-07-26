@@ -1,36 +1,11 @@
-#Decalre varibles
+car_price=1753560
+down_payment=int(input("Enter down Payment Amount"))
+bank_intrest=9.0
+loan_period=float(input("Enter Loan peroid"))
+loan_amount=car_price - down_payment
+monthly_emi=bank_intrest /(12*100)
+num_monthes=int(loan_period*12)
 
-student_id=1
-student_name="Sekhar"
-student_age=25
-quiz_score=88
-assement_score=81
-exam_score=79
-student_attendence=89
-
-#Arithmetic operaters to calculate
-
-total_score=quiz_score + assement_score + exam_score
-average_score=total_score/3
-
-#Relational oersaters to determine
-
-is_passing =average_score>=75
-student_attendence+=1
-is_eligible_for_award= (student_attendence>=90 )and is_passing
-
-#display results
-
-print("Student information")
-print(f"Student id is: {student_id}")
-print(f"Student id is: {student_name}")
-print(f"Student id is: {student_age}")
-
-print(f"Total score is: {total_score}")
-print(f"Average score is: {average_score}")
-print(f"Awarrd eligibility: {'Eligible' if is_eligible_for_award else 'Not eligible'}")
-
-
-
-
-
+emi=loan_amount * monthly_emi * ((1 + monthly_emi) ** num_monthes /(1+monthly_emi) ** num_monthes-1)
+print(loan_amount)
+print(monthly_emi)
