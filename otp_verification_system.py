@@ -1,4 +1,4 @@
-#OTP Verification System.
+#OTP Verification System
 import random
 otp = str(random.randint(1000,9999))
 print(f"Your opt is: {otp}")
